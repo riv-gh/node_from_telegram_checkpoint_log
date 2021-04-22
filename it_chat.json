@@ -1,0 +1,31 @@
+{
+ "name": "it",
+ "type": "private_group",
+ "id": 123,
+ "messages": [
+  {
+   "id": 1,
+   "type": "message",
+   "date": "2019-10-10T13:26:05",
+   "from": "someBot",
+   "from_id": 1,
+   "text": "Hyper-V Checkpoint Failed"
+  },
+  {
+   "id": 2,
+   "type": "message",
+   "date": "2020-03-04T01:00:43",
+   "from": "someBot",
+   "from_id": 2,
+   "text": "Checkpoints \"Daily\" of the \"someGroup\" group are COMPLETED on HYPER-V-FIRST-SERVER"
+  },
+  {
+   "id": 3,
+   "type": "message",
+   "date": "2020-03-07T01:00:37",
+   "from": "someBot",
+   "from_id": 3,
+   "text": "Checkpoints \"Weekly\" of the \"someGroup*\" group are COMPLETED on HYPER-V-SECOND-SERVER"
+  }
+ ]
+}
