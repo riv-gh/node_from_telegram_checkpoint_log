@@ -1,0 +1,42 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid gray;
+    padding: 5px;
+    text-align: center;
+}
+
+th {
+    font-weight: 900;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 10px;
+}
+.form label span {
+    display: block;
+}
+
+@media print {
+    .no-print {
+        display: none;
+    }
+}
+
+#tbody tr:not(.prev):first-child {
+    cursor: no-drop;
+}

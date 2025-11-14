@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Журнал резервного копіювання</title>
+    <link rel="stylesheet" href="./src/style.css?2" />
+</head>
+<body>
+    <div class="no-print form">
+        <label>
+            <span>Оберіть початковий номер <i>(для друку лише останніх сторінок)</i>:</span>
+            <input type="number" id="shiftNumber" value="1" min="1" />
+        </label>
+        <label>
+            <span>Оберіть файл json для формування журналу <i>(остання дія)</i>:</span>
+            <input type="file" id="jsonFile" accept=".json" />
+        </label>
+
+        <h1>Журнал резервного копіювання</h1>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>№ з/п</th>
+                <th>Тип операції</th>
+                <th>Дата здійснення операції</th>
+                <th>ПІБ та підпис відповідального</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+            <tr class="prev">
+                <td colspan="4">Данні буде заповнено після виобору файлу</td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="./src/script.js?2"></script>
+</body>
+</html>
